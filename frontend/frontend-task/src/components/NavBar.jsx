@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./Navbar.css";
 
+// Navbar with freerooms logo, text and menu buttons
 function NavBar() {
+  // Close state for freerooms door logo
   const [isClosed, setIsClosed] = useState(false);
 
   const buttonIcons = [
@@ -30,9 +32,11 @@ function NavBar() {
 
       <h1 id="logo-text">Freerooms</h1>
 
+      {/* Menu buttons with orange background for grid view button */}
       <div className="navbar-buttons">
-        {buttonIcons.map((imgSrc) => (
+        {buttonIcons.map((imgSrc, index) => (
           <button
+            key={index}
             className={
               imgSrc.includes("grid-view")
                 ? "selectedButton"

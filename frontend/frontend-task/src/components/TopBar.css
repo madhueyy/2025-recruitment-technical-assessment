@@ -38,6 +38,7 @@
   padding-left: 10px;
 }
 
+/* Desktop sizes */
 @media (max-width: 1630px) {
   #top-bar {
     margin: 18px 28px;
@@ -61,6 +62,7 @@
   }
 }
 
+/* Tablet sizes */
 @media (max-width: 670px) {
   #top-bar {
     margin: 18px 20px;

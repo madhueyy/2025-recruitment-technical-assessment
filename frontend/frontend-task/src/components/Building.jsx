@@ -1,6 +1,7 @@
 import React from "react";
 import "./Building.css";
 
+// Building card with building name, image and available room numbers
 function Building({ buildingName, imgSrc, roomsNum }) {
   return (
     <div className="building">
@@ -8,7 +9,7 @@ function Building({ buildingName, imgSrc, roomsNum }) {
 
       {/* For desktop and tablet sizes */}
       <div className="rooms">
-        <span class="circle"></span>
+        <span className="circle"></span>
         <p className="large-rooms">{roomsNum} rooms available</p>
       </div>
 
@@ -19,7 +20,7 @@ function Building({ buildingName, imgSrc, roomsNum }) {
         <div className="building-name-mobile">{buildingName}</div>
 
         <div className="rooms-mobile">
-          <span class="circle-mobile"></span>
+          <span className="circle-mobile"></span>
           <p className="small-rooms">
             {roomsNum}/{roomsNum}
           </p>

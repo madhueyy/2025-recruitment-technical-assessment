@@ -57,6 +57,7 @@
   background-color: #aa5017;
 }
 
+/* Desktop sizes */
 @media (max-width: 1630px) {
   #navbar {
     height: 62px;
@@ -79,6 +80,7 @@
   }
 }
 
+/* Mobile sizes */
 @media (max-width: 600px) {
   #logo-text {
     display: none;

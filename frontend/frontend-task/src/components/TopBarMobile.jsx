@@ -1,6 +1,7 @@
 import React from "react";
 import "./TopBarMobile.css";
 
+// Top bar for mobile view with search bar and filter and sort buttons
 function TopBarMobile() {
   return (
     <div id="top-bar-mobile">

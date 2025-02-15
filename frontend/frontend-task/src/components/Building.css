@@ -64,6 +64,7 @@
   margin-right: 10px;
 }
 
+/* Desktop sizes */
 @media (min-width: 1950px) {
   .building {
     width: 15vw;
@@ -144,6 +145,7 @@
   }
 }
 
+/* Tablet sizes */
 @media (max-width: 980px) {
   .building {
     width: 46vw;
@@ -195,6 +197,7 @@
   }
 }
 
+/* Mobile sizes */
 @media (max-width: 600px) {
   .building {
     width: 94vw;

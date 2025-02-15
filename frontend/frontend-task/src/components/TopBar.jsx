@@ -1,6 +1,7 @@
 import React from "react";
 import "./TopBar.css";
 
+// Top bar with filters button, search bar and sort button
 function TopBar() {
   return (
     <div id="top-bar">
